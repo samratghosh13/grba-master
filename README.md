@@ -1,4 +1,4 @@
-
+# Samrat's Version
 
 # [AngularJS](http://www.angularjs.org/) GRBA Web App with Node.JS backend
 
@@ -86,14 +86,14 @@ Our client application is a straight HTML/Javascript application but our develop
 
 ### Configure Server
 The server stores its data in a PostgreSQL database.
-* 
+*
 * Edit `server/config.js` to set database connection properties for the database you created.
 
     ```
     postgres: {
         dbUrl: 'postgres://username:password@host:port/database',             
     },
-    
+
     ```
 
 * Run our initialization script to initialize the database with a first admin user.
